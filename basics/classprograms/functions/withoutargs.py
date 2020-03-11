@@ -1,0 +1,12 @@
+def calculation():
+   a=int(input("Enter a number:"))
+   b=int(input("Enter another number:"))
+   print("addition:",a+b)
+   print("subtraction:",a-b)
+   print("multiplication:",a*b)
+   print("division:",a/b)
+   print("modulo:",a%b)
+calculation()
+print("After function called")
+calculation()
+print("After second time called")
